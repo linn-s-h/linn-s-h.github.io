@@ -6,16 +6,52 @@
         <title>heisann!</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <!-- -->
+        <!--Responsive navbar-->
+        <header style="font-family: 'Courier New', Courier, monospace;">
+            <div class="logo">Linn Hjulstad</div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="">CV</a>
+                    </li>
+                    <li>
+                        <a href="">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="">About me</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <script>
+            hamburger = document.querySelector(".hamburger");
+            hamburger.onclick = function() {
+                navBar = document.querySelector(".nav-bar");
+                navBar.classList.toggle("active");
+            }
+        </script>
+        
+        <!--About me-->
+        </div>
         <div style="font-family: 'Courier New', Courier, monospace; display: flex; flex-direction: column; align-items: center; padding: 50px;">
+           
             <img style="width: 250px; border-radius: 10px;" src="moo-deng.webp" alt="">
             <h1>Hei!</h1>
             <p style="text-align: center;">Moo deng er godt. Moo deng er en type kjøtt på Thai. I Thailand liker de å kalle kjæledyra sine etter mat</p>
             <p>La oss ta en kopp matcha sammen!</p>
             <p>linnshjulstad@gmail.com</p>
+            <p>+47 940 94 495</p>
             <a href="https://github.com/linn-s-h">github</a>
             <a href="https://www.linkedin.com/in/linn-srongyoo-hjulstad-406772251">linkdin</a>
         </div>
