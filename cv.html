@@ -6,9 +6,45 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+         <!--Responsive navbar-->
+         <header style="font-family: 'Courier New', Courier, monospace;">
+            <div class="logo">Linn Hjulstad</div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li>
+                        <a href="index.hml" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="cv.html">CV</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="about-me.html">About me</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <script>
+            hamburger = document.querySelector(".hamburger");
+            hamburger.onclick = function() {
+                navBar = document.querySelector(".nav-bar");
+                navBar.classList.toggle("active");
+            }
+        </script>
+        <div>
+            <h1>Mine prosjekter</h1>
+            <p>Gjerne ta en titt rundt i samlingen min</p>
+        </div>
         
         <script src="" async defer></script>
     </body>
