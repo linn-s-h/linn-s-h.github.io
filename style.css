@@ -9,7 +9,7 @@
 
 body {
     margin: 0;
-    background: #fefefe;
+    background: #11101b;
   
 }
 
@@ -17,8 +17,59 @@ img {
     display: block;
     max-inline-size: 100%;
     height: auto;
+    margin: 0 auto;
 
+    padding: 100px 0%;
+    box-sizing: border-box;
 }
+
+@media only screen and (max-width: 1320px) {
+    img {
+      padding: 100px 2%; 
+    }
+}
+  
+
+  @media only screen and (max-width: 900px) {
+    img {
+      padding: 80px 4%; 
+    }
+}
+  
+  @media only screen and (max-width: 600px) {
+    img {
+      padding: 60px 6%; 
+    }
+}
+
+.intro-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fefefe;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 5%; /*padding for full screen*/
+}
+
+
+@media only screen and (max-width: 1320px) {
+    .intro-text {
+      padding: 0 10%; 
+    }
+}
+  
+
+  @media only screen and (max-width: 900px) {
+    .intro-text {
+      padding: 0 8%; 
+    }
+}
+  
+  @media only screen and (max-width: 600px) {
+    .intro-text {
+      padding: 0 4%; 
+    }
+}
+
 header {
     width: 100%;
     height: 80px;
@@ -114,6 +165,42 @@ header {
     }
 }
 
+.social-links {
+    display: flex;
+    gap: 20px; 
+}
+  
+
+.social-links a {
+    text-decoration: none; 
+    transition: opacity 0.3s; 
+}
+  
+
+.social-links a:hover {
+    opacity: 0.7; 
+}
+
+.project-block {
+
+}
+
+.project-img-link {
+
+}
+
+.project-text {
+
+}
+
+.project-title {
+
+}
+
+.project-summary {
+
+}
+
 .columns {
     float: left;
     width: 50%;
@@ -132,21 +219,4 @@ header {
     .columns {
         width: 100%;
     }
-}
-
-/* Social Links Container */
-.social-links {
-    display: flex;
-    gap: 20px; 
-}
-  
-/* Style for the links */
-.social-links a {
-    text-decoration: none; 
-    transition: opacity 0.3s; 
-}
-  
-  /* Hover effect for the links */
-.social-links a:hover {
-    opacity: 0.7; 
 }
