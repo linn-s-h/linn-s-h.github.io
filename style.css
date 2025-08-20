@@ -191,7 +191,7 @@ header {
 /*Project-Cards*/
 .card {
     display: block;
-    width: 80%; 
+    width: 100%; 
     max-width: 1250px; 
     background: white;
     border-radius: 12px;
@@ -199,9 +199,7 @@ header {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     text-decoration: none;
     color: inherit;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    
-    
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
   }
 
   .card:hover {
@@ -228,7 +226,7 @@ header {
   .card-description {
     font-size: 0.95em;
     color: #555;
-    width: 80%; 
+    width: 100%; 
     max-width: 800px;
   }
 
