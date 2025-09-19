@@ -266,3 +266,39 @@ th, td {
   
 }
 
+.cv-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    max-width: 1500px; 
+}
+
+.link-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #11101b; 
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: #fefefe;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+    margin: 50px auto;
+}
+
+.link-btn:hover {
+    background-color: #fefefe; /* darker blue on hover */
+    color: #11101b;
+    font-weight: bolder;
+}
+
+.cv-main img {
+    max-width: 100%; 
+    height: auto; 
+}
+
